@@ -1,0 +1,17 @@
+body{
+    background-color: #E5E5E5;
+    position: relative;
+    width: 1440px;
+    height: 4490px;
+    display: flex;
+}
+.nav{
+    position: absolute;
+    width: 1099.36px;
+    height: 52px;
+    left: 170.64px;
+    right: 170px;
+    top: 70px;
+    flex-direction: row;
+
+}
