@@ -1,0 +1,40 @@
+.PSContainer{
+width: 100%;
+height: 400px;
+}
+
+h3{
+    font-size: 3em;
+    padding:5%;
+}
+.projects{
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+}
+.projects img{
+    height: 50%;
+    width: 100%;    
+}   
+.project{
+    background-size: 100%;
+    background-color: white;
+    width: 25%;
+    
+}
+.project h4{
+    font-size: 2em;
+    padding-left: 10%;
+    font-family: roboto;
+}
+.project p{
+    font-size: 1.3em;
+    padding-left: 10%;
+}
+.project a{
+    padding-left: 10%;
+    text-decoration: none;
+    font-size: 1.4em;
+    font-weight: 700;
+    color: rgb(3, 3, 189);
+}

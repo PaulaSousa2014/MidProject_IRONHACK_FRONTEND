@@ -1,17 +1,44 @@
+@import './heroSection.css';
+@import './clientSection.css';
+@import './projectsSection.css';
+@import './testimonialSection.css';
+
 body{
     background-color: #E5E5E5;
-    position: relative;
-    width: 1440px;
-    height: 4490px;
-    display: flex;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+    
+   
 }
 .nav{
-    position: absolute;
-    width: 1099.36px;
-    height: 52px;
-    left: 170.64px;
-    right: 170px;
-    top: 70px;
-    flex-direction: row;
+    display: flex;
+    height: 122px;
+    justify-content: space-around;
+    align-items: flex-end;
+    
 
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 1.2em;
+    width: 25%; 
+
+}
+.menu a{
+    text-decoration: none;
+    color: #6B708D;
+}
+button{
+    background-color: #072AC8;
+    border: none;
+    padding: 15px;
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
 }

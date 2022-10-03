@@ -4,80 +4,86 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel=" stylesheet" href="../styles/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
   </head>
   <body>
     <!-- NavBar -->
     <div class="nav">
-      <nav>
-        <img src="../assets/logo/circle.svg" alt="logo" />
-      </nav>
+      <img src="../assets/logo/circle.svg" alt="logo" />
       <div class="menu">
-        <a href="">Home</a>
-        <a href="">Projects</a>
-        <a href="">Services</a>
+        <div><a href="">Home</a></div>
+        <div><a href="">Projects</a></div>
+        <div><a href="">Services</a></div>
       </div>
       <button>Contact Us</button>
     </div>
     <!-- Hero Section -->
     <div class="HSContainer">
-      <div class="HSImage">
-        <!-- Card 1 -->
-        <img src="../assets/hero section/card-1.png" alt="Card 1" />
-        <!-- Card 2 -->
-        <img src="../assets/hero section/card-2.png" alt="Card 2" />
-        <!-- Hero Image -->
-        <img src="../assets/hero section/hero-image.png" alt="Hero Image" />
-      </div>
-      <div>
+      <div class="Text">
         <h1>Empower Your Business With Stunning Design!</h1>
         <p>
-          Circle is a digital design and development studio. We design and
-          develop astonishing websites and mobile apps.
+          Circle is a digital design and development studio.<br />
+          We design and develop astonishing websites and mobile apps.
         </p>
-        <div>
+        <div class="contactInfo">
           <a href="">See our work</a>
           <button>Get in touch</button>
+        </div>
+      </div>
+      <div class="HSImage">
+        <!-- Card 1 -->
+        <div class="card1">
+          <img src="../assets/hero section/card-1.png" alt="Card 1" />
+        </div>
+        <!-- Card 2 -->
+        <div class="card2">
+          <img src="../assets/hero section/card-2.png" alt="Card 2" />
         </div>
       </div>
     </div>
     <!-- Client Section -->
     <div class="CSContainer">
-      <img src="../assets/logo/airbnb-logo.svg" alt="airbnb-logo" />
-      <img src="../assets/logo/google-logo.svg" alt="google-logo" />
-      <img src="../assets/logo/microsoft-logo.svg" alt="microsoft-logo" />
-      <img src="../assets/logo/fedex-logo.svg" alt="fedex-logo" />
-      <img src="../assets/logo/amazon-logo.svg" alt="amazon-logo" />
+      <div><img src="../assets/logo/airbnb-logo.svg" alt="airbnb-logo" /></div>
+      <div><img src="../assets/logo/google-logo.svg" alt="google-logo" /></div>
+      <div>
+        <img src="../assets/logo/microsoft-logo.svg" alt="microsoft-logo" />
+      </div>
+      <div><img src="../assets/logo/fedex-logo.svg" alt="fedex-logo" /></div>
+      <div><img src="../assets/logo/amazon-logo.svg" alt="amazon-logo" /></div>
     </div>
     <!-- Projects Section -->
     <div class="PSContainer">
       <h3>Recent Projects</h3>
       <!-- Projects -->
-      <div>
-        <img src="../assets/Projects/1.jpg" alt="" />
-        <p>Simplify</p>
-        <p>UI Design & App Development</p>
-        <a href="">Learn more</a>
-      </div>
-      <div>
-        <img src="../assets/Projects/2.jpg" alt="" />
-        <p>Dashcoin</p>
-        <p>Web Development</p>
-        <a href="">Learn more</a>
-      </div>
-      <div>
-        <img src="../assets/Projects/3.jpg" alt="" />
-        <p>Vectorify</p>
-        <p>User Experience Design</p>
-        <a href="">Learn more</a>
+      <div class="projects">
+        <div class="project" >
+          <img src="../assets/Projects/1.jpg" alt="" />
+          <h4>Simplify</h4>
+          <p>UI Design & App Development</p>
+          <a href="">Learn more</a>
+        </div>
+        <div class="project">
+          <img src="../assets/Projects/2.jpg" alt="" />
+          <h4>Dashcoin</h4>
+          <p>Web Development</p>
+          <a href="">Learn more</a>
+        </div>
+        <div class="project">
+          <img src="../assets/Projects/3.jpg" alt="" />
+          <h4>Vectorify</h4>
+          <p>User Experience Design</p>
+          <a href="">Learn more</a>
+        </div>
       </div>
     </div>
     <!-- Testimonial Section -->
-    <div>
-      <div>
-        <img src="../assets/emojis/orbit.png" alt="" />
-      </div>
-      <div>
+    <div class="TSblackground">
+      
+      <div class="TScontainer">
         <img src="../assets/emojis/memoji-1.png" alt="memoji-1" />
         <img src="../assets/emojis/memoji-2.png" alt="memoji-2" />
         <img src="../assets/emojis/memoji-3.png" alt="memoji-3" />
@@ -99,56 +105,64 @@
       </div>
       <!-- Services -->
       <div>
-        <img src="../assets/icons/1.svg" alt="icon1">
+        <img src="../assets/icons/1.svg" alt="icon1" />
         <p>User Interface Design</p>
-        <p>Circle provides you with a stunning user interface design that is accessible to everyone.</p>
+        <p>
+          Circle provides you with a stunning user interface design that is
+          accessible to everyone.
+        </p>
         <a href="">Learn more</a>
       </div>
       <div>
-        <img src="../assets/icons/2.svg" alt="icon2">
+        <img src="../assets/icons/2.svg" alt="icon2" />
         <p>User Experience Design</p>
-        <p>Circle always focuses on delivering the best user experience to your customers.</p>
+        <p>
+          Circle always focuses on delivering the best user experience to your
+          customers.
+        </p>
         <a href="">Learn more</a>
       </div>
       <div>
-        <img src="../assets/icons/3.svg" alt="icon3">
+        <img src="../assets/icons/3.svg" alt="icon3" />
         <p>Application Development</p>
-        <p>We develop high-quality mobile and web applications using the latest technology stack.</p>
+        <p>
+          We develop high-quality mobile and web applications using the latest
+          technology stack.
+        </p>
         <a href="">Learn more</a>
       </div>
     </div>
     <!-- CTA Section -->
     <div>
-        <div>
-            <h3>Do you have any questions?</h3>
-            <p>Let us help you!</p>
-        </div>
-        <div class="inputPlaceholder">
-            <img src="../assets/icons/mail.svg" alt="mail">
-            <input type="text" placeholder="Enter your email">
-        </div>
+      <div>
+        <h3>Do you have any questions?</h3>
+        <p>Let us help you!</p>
+      </div>
+      <div class="inputPlaceholder">
+        <img src="../assets/icons/mail.svg" alt="mail" />
+        <input type="text" placeholder="Enter your email" />
+      </div>
     </div>
     <!-- Footer Section -->
     <div>
       <footer>
         <div class="footerContainer">
-            <div>
-                <img src="../assets/logo/circle.svg" alt="logo">
-                <p>2972 Westheimer Rd. Santa Ana, Illinois 85486 </p>
-            </div>
-            <div>
-                <a href="">Team</a>
-                <a href="">Services</a>
-                <a href="">About Us</a>
-                <a href="">Press</a>
-                <a href="">Projects</a>
-                <a href="">Privacy Policy</a>
-            </div>
-
+          <div>
+            <img src="../assets/logo/circle.svg" alt="logo" />
+            <p>2972 Westheimer Rd. Santa Ana, Illinois 85486</p>
+          </div>
+          <div>
+            <a href="">Team</a>
+            <a href="">Services</a>
+            <a href="">About Us</a>
+            <a href="">Press</a>
+            <a href="">Projects</a>
+            <a href="">Privacy Policy</a>
+          </div>
         </div>
       </footer>
     </div>
-    
+
     <script src="../js/index.js"></script>
   </body>
 </html>

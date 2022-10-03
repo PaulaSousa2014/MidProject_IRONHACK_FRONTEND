@@ -1,0 +1,55 @@
+.HSContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.HSImage{
+    display: flex;
+    background-image: url("../assets/hero section/hero-image.png");
+    background-repeat: no-repeat;
+    height: 700px;
+    background-size: 100%; 
+}
+.card1{
+  align-self: flex-start;
+    height: 250px;
+    height: 300px;
+}
+.card2{
+    align-self: flex-end;
+    height: 250px;
+}
+
+.card1 img{
+    height: 100%;
+    width: 100%;
+}
+.card2 img{
+    height: 100%;
+    width: 100%;
+}
+
+.Text{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding-top: 50px;
+}
+h1{
+    font-size: 60px;
+}
+.Text p{
+    font-size: 1.7em;
+    line-height: 1.5;
+    color: #6B708D;
+}
+.contactInfo{
+    font-size: 1.5em;
+    font-weight: bold; 
+}
+
+.contactInfo a{
+    text-decoration: none;
+    color: #6B708D;
+    padding: 10px;
+}
