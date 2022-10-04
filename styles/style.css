@@ -2,6 +2,7 @@
 @import './clientSection.css';
 @import './projectsSection.css';
 @import './testimonialSection.css';
+@import './serviceSection.css';
 
 body{
     background-color: #E5E5E5;
