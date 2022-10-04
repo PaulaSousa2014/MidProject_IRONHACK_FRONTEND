@@ -5,12 +5,13 @@
 @import './serviceSection.css';
 
 body{
-    background-color: #E5E5E5;
+    background-color: #f2f4fc;
     font-family: Roboto;
     font-weight: 400;
     font-size: 12px;
     padding-left: 50px;
     padding-right: 50px;
+    color: #292e47;
     
     
    
