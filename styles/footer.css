@@ -1,0 +1,29 @@
+.footerContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.footer1 p{
+    font-size: 1rem;
+    color: #6b708d;
+    
+}
+.footer1 img{
+    height: 30px;
+}
+.footer2 a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #0000EE;
+   
+    
+}
+.footer2{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns:  80px 100px 150px;
+    
+
+}
