@@ -3,6 +3,7 @@
 @import './projectsSection.css';
 @import './testimonialSection.css';
 @import './serviceSection.css';
+@import './CTASection.css';
 
 body{
     background-color: #f2f4fc;
@@ -12,8 +13,6 @@ body{
     padding-left: 50px;
     padding-right: 50px;
     color: #292e47;
-    
-    
    
 }
 .nav{
@@ -21,8 +20,6 @@ body{
     height: 122px;
     justify-content: space-around;
     align-items: flex-end;
-    
-
 }
 .menu{
     display: flex;

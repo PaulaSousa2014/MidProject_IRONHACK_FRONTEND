@@ -6,6 +6,7 @@
     background-repeat: no-repeat;
     width: 100%;
     margin-top: 200px;
+    margin-bottom: 100px;
      
 }
 .emoji{
@@ -51,24 +52,31 @@
 }
 .TStext h4{
     color: #A2D6F9;
+    margin: 0;
+    
 }
 .TStext h5{
     color: #F4F6FC;
+    margin: 0;
 }
 .profile{
     position: relative;
     width: 50px; 
     height:50px; 
     border-radius: 50px;
-    margin-top: 15px;
+    margin-right: 10px;
+
 }
 .TSprofile{
     display: flex;
     flex-direction: row-reverse;
     text-align: left;
+    align-items: center;
+    
     position: relative;
     bottom: 40px;
     right: 45%;
     margin-top: 15%;
+
     
 }
