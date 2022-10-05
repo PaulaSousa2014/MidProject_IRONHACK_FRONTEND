@@ -5,6 +5,7 @@
 @import './serviceSection.css';
 @import './CTASection.css';
 @import './footer.css';
+@import './form/form.css';
 
 body{
     background-color: #f2f4fc;
