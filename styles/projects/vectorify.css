@@ -1,0 +1,46 @@
+
+.ProjectSectionContainer{
+    margin-top: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+    
+}
+.ProjectSectionContainer h1{
+    margin-bottom: 20px ;
+}
+.LineSectionContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.LineSectionContainer h3{
+    margin: 0;
+    padding: 0;
+    color: #6b708d;
+    font-size: 1.5rem;
+   
+}
+.LineP{
+    display: flex;
+    align-items: center;
+    width: 190px;
+    justify-content: space-between;
+    font-size: 1.2rem; 
+}
+.LineP datagrid{
+    color: #6b708d; 
+}
+.ProjectSImage img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    -webkit-box-shadow: -4px -2px 48px 0px;
+    -moz-box-shadow: -4px -2px 48px 0px;
+    box-shadow: -4px -2px 48px 0px;
+    margin-bottom: 100px;
+}
+.ProjectText{
+    font-size: 1.25rem;
+}
