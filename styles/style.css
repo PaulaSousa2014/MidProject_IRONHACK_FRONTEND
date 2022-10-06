@@ -44,9 +44,7 @@ body{
 }
 
 /* Style the navigation menu */
-.topnav {
-    overflow: hidden;
-    
+.topnav {    
     position: relative;
     display: none;
   }

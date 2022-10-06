@@ -96,9 +96,7 @@ h1{
     
 }
 @media  (min-width: 1024px) {
-    .HSContainer span{
-        display:none;
-    }
+    
 }
 @media (min-width: 768px){
     
