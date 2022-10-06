@@ -8,7 +8,14 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap"
       rel="stylesheet"
     />
-    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <title>Document</title>
   </head>
   <body>
@@ -20,13 +27,25 @@
         <div><a href="">Projects</a></div>
         <div><a href="">Services</a></div>
       </div>
-      <button id="NavButton" onclick="location.href='./html/form.html'">Contact Us</button>
-      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
+      <button id="NavButton" onclick="location.href='./html/form.html'">
+        Contact Us
+      </button>
+    </div>
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+      <img src="./assets/logo/circle.svg" alt="logo" />
+      <!-- Navigation links (hidden by default) -->
+      <div id="myLinks">
+        <a href="'./index.html">Home</a>
+        <a href="">Projects</a>
+        <a href="">Services</a>
+      </div>
+      <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
       </a>
     </div>
+
     <!-- Hero Section -->
     <div class="HSContainer">
       <div class="Text">
@@ -35,10 +54,13 @@
           Circle is a digital design and development studio.<br />
           We design and develop astonishing websites and mobile apps.
         </p>
+        
         <div class="contactInfo">
+          
           <a href="">See our work</a>
           <button>Get in touch</button>
         </div>
+        
       </div>
       <div class="HSImage">
         <!-- Card 1 -->
@@ -59,7 +81,7 @@
         <img src="./assets/logo/microsoft-logo.svg" alt="microsoft-logo" />
       </div>
       <div><img src="./assets/logo/fedex-logo.svg" alt="fedex-logo" /></div>
-      <div><img src="./assets/logo/amazon-logo.svg" alt="amazon-logo" /></div>
+      <div class="amazonLink"><img src="./assets/logo/amazon-logo.svg" alt="amazon-logo" /></div>
     </div>
     <!-- Projects Section -->
     <div class="PSContainer">
@@ -130,45 +152,47 @@
       </div>
     </div>
     <!-- Services Section -->
-    
-      <div>
-        <h3 class="Sh3">Our Services</h3>
+
+    <div>
+      <h3 class="Sh3">Our Services</h3>
+    </div>
+    <!-- Services -->
+    <div class="Services">
+      <div class="icon">
+        <div class="imageService">
+          <img src="./assets/icons/1.svg" alt="icon1" />
+        </div>
+        <h4>User Interface Design</h4>
+        <p>
+          Circle provides you with a stunning user interface design that is
+          accessible to everyone.
+        </p>
+        <a href="">Learn more</a>
       </div>
-      <!-- Services -->
-      <div class="Services">
-        <div class="icon">
-          <div class="imageService">
-            <img src="./assets/icons/1.svg" alt="icon1" />
-          </div>
-          <h4>User Interface Design</h4>
-          <p>
-            Circle provides you with a stunning user interface design that is
-            accessible to everyone.
-          </p>
-          <a href="">Learn more</a>
+      <div class="icon">
+        <div class="imageService">
+          <img src="./assets/icons/2.svg" alt="icon2" />
         </div>
-        <div class="icon">
-            <div class="imageService">
-          <img src="./assets/icons/2.svg" alt="icon2" /></div>
-          <h4>User Experience Design</h4>
-          <p>
-            Circle always focuses on delivering the best user experience to your
-            customers.
-          </p>
-          <a href="">Learn more</a>
-        </div>
-        <div class="icon">
-            <div class="imageService">
-          <img src="./assets/icons/3.svg" alt="icon3" /></div>
-          <h4>Application Development</h4>
-          <p>
-            We develop high-quality mobile and web applications using the latest
-            technology stack.
-          </p>
-          <a href="">Learn more</a>
-        </div>
+        <h4>User Experience Design</h4>
+        <p>
+          Circle always focuses on delivering the best user experience to your
+          customers.
+        </p>
+        <a href="">Learn more</a>
       </div>
-    
+      <div class="icon">
+        <div class="imageService">
+          <img src="./assets/icons/3.svg" alt="icon3" />
+        </div>
+        <h4>Application Development</h4>
+        <p>
+          We develop high-quality mobile and web applications using the latest
+          technology stack.
+        </p>
+        <a href="">Learn more</a>
+      </div>
+    </div>
+
     <!-- CTA Section -->
     <div class="CTASection">
       <div>
@@ -190,7 +214,7 @@
           <div class="footer1">
             <img src="./assets/logo/circle.svg" alt="logo" />
             <p>2972 Westheimer Rd. Santa Ana,</p>
-            <p>Illinois 85486</p> 
+            <p>Illinois 85486</p>
           </div>
           <div class="footer2">
             <div><a href="">Team</a></div>

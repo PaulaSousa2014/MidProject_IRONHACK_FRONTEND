@@ -36,3 +36,19 @@ h3{
     font-weight: 700;
     color: rgb(3, 3, 189);
 }
+@media (max-width: 480px){
+    .projects{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+       
+    }
+    .PSContainer{
+        width: 90vw;
+        
+    }
+    .project{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}

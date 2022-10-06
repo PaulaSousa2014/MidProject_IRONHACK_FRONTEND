@@ -5,3 +5,29 @@
     margin-bottom: 200px;
 
 }
+
+@media (max-width: 480px){
+    .amazonLink{
+        display: none;
+    }
+    .CSContainer{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        grid-gap: 50px;
+    }
+}
+@media (max-width: 768px) {
+    .amazonLink{
+        display: none;
+        
+    }
+    .CSContainer{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        grid-gap: 50px;
+        margin-bottom: 50px;
+    }
+    
+}

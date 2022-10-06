@@ -80,3 +80,9 @@
 
     
 }
+
+@media (max-width: 480px){
+    .emoji{
+        display: none;
+    }
+}

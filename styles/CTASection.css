@@ -47,3 +47,21 @@
     height: 30px;
     align-self: center;
 }
+@media (max-width: 480px){
+    .CTAbuttons{
+        flex-direction: column;
+        align-items: center;
+    }
+    .inputPlaceholder{
+        width: 200px;
+        margin: 0;
+        margin-bottom: 5px;
+        
+        
+        
+    }
+    .CTAbuttons button{
+        margin: 0;
+        width: 200px;
+    }
+}

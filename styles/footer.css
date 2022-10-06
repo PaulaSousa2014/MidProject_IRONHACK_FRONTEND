@@ -27,3 +27,8 @@
     
 
 }
+@media (max-width: 480px){
+    .footerContainer{
+        flex-direction: column;
+    }
+}
