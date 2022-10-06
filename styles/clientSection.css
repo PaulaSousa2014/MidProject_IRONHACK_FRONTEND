@@ -6,6 +6,8 @@
 
 }
 
+/* Funcionalidades Responsive para pantallas tamaño mobil */
+
 @media (max-width: 480px){
     .amazonLink{
         display: none;
@@ -17,6 +19,7 @@
         grid-gap: 50px;
     }
 }
+/* Funcionalidades Responsive para pantallas tamaño tablet */
 @media (max-width: 768px) {
     .amazonLink{
         display: none;

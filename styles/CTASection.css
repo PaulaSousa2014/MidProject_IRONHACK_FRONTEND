@@ -47,6 +47,7 @@
     height: 30px;
     align-self: center;
 }
+/* Funcionalidades Responsive para pantallas tamaño mobil */
 @media (max-width: 480px){
     .CTAbuttons{
         flex-direction: column;
@@ -55,10 +56,7 @@
     .inputPlaceholder{
         width: 200px;
         margin: 0;
-        margin-bottom: 5px;
-        
-        
-        
+        margin-bottom: 5px;   
     }
     .CTAbuttons button{
         margin: 0;

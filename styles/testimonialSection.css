@@ -80,7 +80,7 @@
 
     
 }
-
+/* Funcionalidades Responsive para pantallas tamaño mobil */
 @media (max-width: 480px){
     .emoji{
         display: none;

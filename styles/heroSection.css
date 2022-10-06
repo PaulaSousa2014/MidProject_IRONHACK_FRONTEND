@@ -54,7 +54,7 @@ h1{
     padding: 10px;
 }
 
-
+/* Funcionalidades Responsive para pantallas tamaño mobil */
 @media (max-width: 480px) {
     .Text{
         display: flex;
@@ -95,9 +95,12 @@ h1{
     }
     
 }
+/* Funcionalidades Responsive para pantallas tamaño ordenador */
 @media  (min-width: 1024px) {
     
 }
+
+/* Funcionalidades Responsive para pantallas tamaño tablet */
 @media (min-width: 768px){
     
 }

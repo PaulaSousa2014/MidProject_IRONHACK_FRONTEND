@@ -3,11 +3,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel=" stylesheet" href="./styles/style.css" />
+    <!-- Link a stylesheet -->
+    <link rel=" stylesheet" href="./styles/style.css" /> 
+    <!-- Link a estilo Roboto de googleFont -->
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap"
       rel="stylesheet"
     />
+    <!-- Link a libreria de font-awsome para la imagen del menú Hamburguesa -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
@@ -18,8 +21,9 @@
 
     <title>Document</title>
   </head>
+  
   <body>
-    <!-- NavBar -->
+    <!-- NavBar  Responsive PC-->
     <div class="nav">
       <img src="./assets/logo/circle.svg" alt="logo" />
       <div class="menu">
@@ -31,16 +35,16 @@
         Contact Us
       </button>
     </div>
-    <!-- Top Navigation Menu -->
+    <!-- Top Navigation Menu Responsive mobil/ tablet -->
     <div class="topnav">
       <img src="./assets/logo/circle.svg" alt="logo" />
-      <!-- Navigation links (hidden by default) -->
+      <!-- Duplicado de clase menu para responsive mobi/tablet -->
       <div id="myLinks">
         <a href="'./index.html">Home</a>
         <a href="">Projects</a>
         <a href="">Services</a>
       </div>
-      <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+      <!-- "Menu hamburguesa que se despliega con un click"  -->
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
       </a>
@@ -62,18 +66,19 @@
         </div>
         
       </div>
+      <!-- Imagen principal en CSS background -->
       <div class="HSImage">
-        <!-- Card 1 -->
+        <!-- Imagen flotante Card 1 -->
         <div class="card1">
           <img src="./assets/hero section/card-1.png" alt="Card 1" />
         </div>
-        <!-- Card 2 -->
+        <!-- Imagen flotante Card 2 -->
         <div class="card2">
           <img src="./assets/hero section/card-2.png" alt="Card 2" />
         </div>
       </div>
     </div>
-    <!-- Client Section -->
+    <!-- Client Section: logo de clientes -->
     <div class="CSContainer">
       <div><img src="./assets/logo/airbnb-logo.svg" alt="airbnb-logo" /></div>
       <div><img src="./assets/logo/google-logo.svg" alt="google-logo" /></div>
@@ -86,7 +91,7 @@
     <!-- Projects Section -->
     <div class="PSContainer">
       <h3>Recent Projects</h3>
-      <!-- Projects -->
+      <!-- 3 Projects que se enseñan en la pagina Home con el link para su propia pagina-->
       <div class="projects">
         <div class="project">
           <img src="./assets/Projects/1.jpg" alt="" />
@@ -96,19 +101,19 @@
         </div>
         <div class="project">
           <img src="./assets/Projects/2.jpg" alt="" />
-          <h4>Dashcoin</h4>
-          <p>Web Development</p>
+          <h4 id="title2">Dashcoin</h4>
+          <p id="text2">Web Development</p>
           <a href="./html/projects/dashcoin.html">Learn more</a>
         </div>
         <div class="project">
           <img src="./assets/Projects/3.jpg" alt="" />
-          <h4>Vectorify</h4>
-          <p>User Experience Design</p>
+          <h4 id="title3">Vectorify</h4>
+          <p id="text3">User Experience Design</p>
           <a href="./html/projects/vectorify.html">Learn more</a>
         </div>
       </div>
     </div>
-    <!-- Testimonial Section -->
+    <!-- Testimonial Section imagenes de emojis que se enseñan en Responsive PC (principales como background en CSS)-->
     <div class="TSbackground">
       <img
         class="emoji cara1"
@@ -130,13 +135,14 @@
         src="./assets/emojis/memoji-4.png"
         alt="memoji-4"
       />
-
+        <!-- Texto de testimonio -->
       <div class="TStext">
         <h3>Hear What Our Clients Have to Say</h3>
         <p>
           “Circle helped us through every stage of our startup. <br />We really
           enjoyed working with you.”
         </p>
+        <!-- Perfil del cliente que hace el testimonio -->
         <div class="TSprofile">
           <div>
             <h4>Kristin Watson</h4>
@@ -156,7 +162,7 @@
     <div>
       <h3 class="Sh3">Our Services</h3>
     </div>
-    <!-- Services -->
+    <!-- Servicios ofrecidos listos para conectar con la pagina del sevicio -->
     <div class="Services">
       <div class="icon">
         <div class="imageService">
@@ -193,7 +199,7 @@
       </div>
     </div>
 
-    <!-- CTA Section -->
+    <!-- CTA Section. Creado html sin conexion con javaScript-->
     <div class="CTASection">
       <div>
         <h3>Do you have any questions?</h3>
@@ -207,7 +213,7 @@
         <div><button>Subscribe</button></div>
       </div>
     </div>
-    <!-- Footer Section -->
+    <!-- Footer Section: preparada para añadir los links de las paginas -->
     <div>
       <footer>
         <div class="footerContainer">
@@ -227,7 +233,7 @@
         </div>
       </footer>
     </div>
-
+    <!-- Link de conexión con JavaScript -->
     <script src="./js/index.js"></script>
   </body>
 </html>

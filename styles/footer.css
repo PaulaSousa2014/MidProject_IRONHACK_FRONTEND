@@ -27,6 +27,7 @@
     
 
 }
+/* Funcionalidades Responsive para pantallas tamaño mobil */
 @media (max-width: 480px){
     .footerContainer{
         flex-direction: column;
