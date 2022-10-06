@@ -20,8 +20,10 @@ body{
     padding-left: 50px;
     padding-right: 50px;
     color: #292e47;
+    
    
 }
+
 .nav{
     display: flex;
     height: 122px;
@@ -48,3 +50,23 @@ button{
     padding-left: 25px;
     padding-right: 25px;
 }
+
+@media (max-width: 768px) {
+    
+}
+@media (max-width: 480px) {
+    #NavButton{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+}
+@media (max-width: 1024px) {
+    .background {
+        height: 146px;
+    }
+}
+
+
+

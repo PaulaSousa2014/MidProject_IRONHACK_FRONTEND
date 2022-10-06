@@ -3,23 +3,29 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel=" stylesheet" href="../styles/style.css" />
+    <link rel=" stylesheet" href="../midProject/styles/style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap"
       rel="stylesheet"
     />
+    
     <title>Document</title>
   </head>
   <body>
     <!-- NavBar -->
     <div class="nav">
-      <img src="../assets/logo/circle.svg" alt="logo" />
+      <img src="../midProject/assets/logo/circle.svg" alt="logo" />
       <div class="menu">
-        <div><a href="">Home</a></div>
+        <div><a href="'../midProject/index.html">Home</a></div>
         <div><a href="">Projects</a></div>
         <div><a href="">Services</a></div>
       </div>
-      <button>Contact Us</button>
+      <button id="NavButton" onclick="location.href='../midProject/html/form.html'">Contact Us</button>
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
     </div>
     <!-- Hero Section -->
     <div class="HSContainer">
@@ -37,23 +43,23 @@
       <div class="HSImage">
         <!-- Card 1 -->
         <div class="card1">
-          <img src="../assets/hero section/card-1.png" alt="Card 1" />
+          <img src="../midProject/assets/hero section/card-1.png" alt="Card 1" />
         </div>
         <!-- Card 2 -->
         <div class="card2">
-          <img src="../assets/hero section/card-2.png" alt="Card 2" />
+          <img src="../midProject/assets/hero section/card-2.png" alt="Card 2" />
         </div>
       </div>
     </div>
     <!-- Client Section -->
     <div class="CSContainer">
-      <div><img src="../assets/logo/airbnb-logo.svg" alt="airbnb-logo" /></div>
-      <div><img src="../assets/logo/google-logo.svg" alt="google-logo" /></div>
+      <div><img src="../midProject/assets/logo/airbnb-logo.svg" alt="airbnb-logo" /></div>
+      <div><img src="../midProject/assets/logo/google-logo.svg" alt="google-logo" /></div>
       <div>
-        <img src="../assets/logo/microsoft-logo.svg" alt="microsoft-logo" />
+        <img src="../midProject/assets/logo/microsoft-logo.svg" alt="microsoft-logo" />
       </div>
-      <div><img src="../assets/logo/fedex-logo.svg" alt="fedex-logo" /></div>
-      <div><img src="../assets/logo/amazon-logo.svg" alt="amazon-logo" /></div>
+      <div><img src="../midProject/assets/logo/fedex-logo.svg" alt="fedex-logo" /></div>
+      <div><img src="../midProject/assets/logo/amazon-logo.svg" alt="amazon-logo" /></div>
     </div>
     <!-- Projects Section -->
     <div class="PSContainer">
@@ -61,22 +67,22 @@
       <!-- Projects -->
       <div class="projects">
         <div class="project">
-          <img src="../assets/Projects/1.jpg" alt="" />
+          <img src="../midProject/assets/Projects/1.jpg" alt="" />
           <h4>Simplify</h4>
           <p>UI Design & App Development</p>
-          <a href="">Learn more</a>
+          <a href="../midProject/html/projects/simplify.html">Learn more</a>
         </div>
         <div class="project">
-          <img src="../assets/Projects/2.jpg" alt="" />
+          <img src="../midProject/assets/Projects/2.jpg" alt="" />
           <h4>Dashcoin</h4>
           <p>Web Development</p>
-          <a href="">Learn more</a>
+          <a href="../midProject/html/projects/dashcoin.html">Learn more</a>
         </div>
         <div class="project">
-          <img src="../assets/Projects/3.jpg" alt="" />
+          <img src="../midProject/assets/Projects/3.jpg" alt="" />
           <h4>Vectorify</h4>
           <p>User Experience Design</p>
-          <a href="">Learn more</a>
+          <a href="../midProject/html/projects/vectorify.html">Learn more</a>
         </div>
       </div>
     </div>
@@ -84,22 +90,22 @@
     <div class="TSbackground">
       <img
         class="emoji cara1"
-        src="../assets/emojis/memoji-1.png"
+        src="../midProject/assets/emojis/memoji-1.png"
         alt="memoji-1"
       />
       <img
         class="emoji cara2"
-        src="../assets/emojis/memoji-2.png"
+        src="../midProject/assets/emojis/memoji-2.png"
         alt="memoji-2"
       />
       <img
         class="emoji cara3"
-        src="../assets/emojis/memoji-3.png"
+        src="../midProject/assets/emojis/memoji-3.png"
         alt="memoji-3"
       />
       <img
         class="emoji cara4"
-        src="../assets/emojis/memoji-4.png"
+        src="../midProject/assets/emojis/memoji-4.png"
         alt="memoji-4"
       />
 
@@ -117,7 +123,7 @@
 
           <img
             class="profile"
-            src="../assets/emojis/profile.png"
+            src="../midProject/assets/emojis/profile.png"
             alt="profile"
           />
         </div>
@@ -132,7 +138,7 @@
       <div class="Services">
         <div class="icon">
           <div class="imageService">
-            <img src="../assets/icons/1.svg" alt="icon1" />
+            <img src="../midProject/assets/icons/1.svg" alt="icon1" />
           </div>
           <h4>User Interface Design</h4>
           <p>
@@ -143,7 +149,7 @@
         </div>
         <div class="icon">
             <div class="imageService">
-          <img src="../assets/icons/2.svg" alt="icon2" /></div>
+          <img src="../midProject/assets/icons/2.svg" alt="icon2" /></div>
           <h4>User Experience Design</h4>
           <p>
             Circle always focuses on delivering the best user experience to your
@@ -153,7 +159,7 @@
         </div>
         <div class="icon">
             <div class="imageService">
-          <img src="../assets/icons/3.svg" alt="icon3" /></div>
+          <img src="../midProject/assets/icons/3.svg" alt="icon3" /></div>
           <h4>Application Development</h4>
           <p>
             We develop high-quality mobile and web applications using the latest
@@ -171,7 +177,7 @@
       </div>
       <div class="CTAbuttons">
         <div class="inputPlaceholder">
-          <img src="../assets/icons/mail.svg" alt="mail" />
+          <img src="../midProject/assets/icons/mail.svg" alt="mail" />
           <input type="text" placeholder="Enter your email" />
         </div>
         <div><button>Subscribe</button></div>
@@ -182,7 +188,7 @@
       <footer>
         <div class="footerContainer">
           <div class="footer1">
-            <img src="../assets/logo/circle.svg" alt="logo" />
+            <img src="../midProject/assets/logo/circle.svg" alt="logo" />
             <p>2972 Westheimer Rd. Santa Ana,</p>
             <p>Illinois 85486</p> 
           </div>
@@ -198,6 +204,6 @@
       </footer>
     </div>
 
-    <script src="../js/index.js"></script>
+    <script src="../midProject/js/index.js"></script>
   </body>
 </html>
