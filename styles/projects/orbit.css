@@ -52,5 +52,7 @@
     .LineSectionContainer{
         flex-direction: column;
     }
-    
+    .ProjectSectionContainer{
+        margin-top: 0;
+    }
 }
