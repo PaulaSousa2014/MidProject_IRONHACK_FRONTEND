@@ -44,3 +44,18 @@
 .ProjectText{
     font-size: 1.25rem;
 }
+/* Funcionalidades Responsive para pantallas tamaño tablet */
+@media (max-width: 900px) and (min-width:600px){
+
+}
+
+/* Funcionalidades Responsive para pantallas tamaño mobil */
+@media (max-width: 480px){
+    .ProjectSectionContainer h1{
+        font-size: 2.7rem;
+    }
+    .LineSectionContainer{
+        flex-direction: column;
+    }
+    
+}

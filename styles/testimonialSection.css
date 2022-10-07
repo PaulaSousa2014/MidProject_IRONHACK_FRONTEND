@@ -87,6 +87,10 @@
     .emoji{
         display: none;
     }
+    .TSbackground{
+        margin-top: 100px;
+        height: 500px;
+    }
 }
 /* Funcionalidades Responsive para pantallas tamaño tablet */
 @media (max-width: 900px) and (min-width:600px){
