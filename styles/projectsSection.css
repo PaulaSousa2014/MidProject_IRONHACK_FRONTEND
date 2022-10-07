@@ -4,39 +4,40 @@ width: 100%;
 
 h3{
     font-size: 3em;
-    padding:5%;
+    
 }
 .projects{
     display: flex;
     justify-content: space-around;
 }
 .projects img{
-    height: 50%;
     width: 100%;    
 }   
 .project{
     background-size: 100%;
     background-color: white;
-    width: 25%;
-    
-    
-    
+    width: 25%; 
+    padding-bottom: 15px; 
 }
 .project h4{
     font-size: 2em;
-    padding-left: 10%;
+    padding-left: 20px; 
+    padding-right: 20px;
     font-family: roboto;
 }
 .project p{
     font-size: 1.3em;
-    padding-left: 10%;
+    padding-left: 20px; 
+    padding-right: 20px;
 }
 .project a{
-    padding-left: 10%;
+    padding-left: 20px; 
+    padding-right: 20px;
     text-decoration: none;
     font-size: 1.4em;
     font-weight: 700;
     color: rgb(3, 3, 189);
+    
 }
 /* Funcionalidades Responsive para pantallas tamaño mobil */
 @media (max-width: 480px){
