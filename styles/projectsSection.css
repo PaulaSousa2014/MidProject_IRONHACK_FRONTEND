@@ -59,7 +59,7 @@ h3{
 }
 
 /* Funcionalidades Responsive para pantallas tamaño tablet */
-@media (max-width: 768px) and (min-width:600px){
+@media (max-width: 900px) and (min-width:600px){
     .projects{
         flex-direction: column;
         width: 100%;
@@ -85,5 +85,13 @@ h3{
         align-self: flex-start;
         
     }
- 
+    .project h4{
+        font-size: 1.5rem;  
+    }
+    .project p{
+        font-size: 1.3rem;
+    }
+    .project a{
+        font-size: 1.3rem;
+    }
 }

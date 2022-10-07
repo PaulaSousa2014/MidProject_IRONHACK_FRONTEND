@@ -88,7 +88,7 @@ button{
 }
 
 /* Funcionalidades Responsive para pantallas tamaño tablet */
-@media (max-width: 768px) and (min-width:600px) {
+@media (max-width: 900px) and (min-width:600px) {
     #NavButton{
         display: none;
     }
