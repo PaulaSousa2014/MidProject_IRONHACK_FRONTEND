@@ -101,6 +101,34 @@ h1{
 }
 
 /* Funcionalidades Responsive para pantallas tamaño tablet */
-@media (min-width: 768px){
-    
+@media (max-width: 768px){
+    .HSContainer{
+        flex-direction: column;
+        align-content: center;
+        margin-top: 50px;
+    }
+    .Text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90vw;
+        text-align: center;
+        margin-left: 5px;
+        padding: 0;
+    }
+    .Text p{
+        font-size: 1.5rem;
+    }
+    .contactInfo{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .HSImage{
+        margin-top: 50px;
+        height: 1000px;
+    }
+    .card1{
+        display: none;
+    }
+   
 }

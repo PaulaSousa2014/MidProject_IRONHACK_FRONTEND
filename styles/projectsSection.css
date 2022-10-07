@@ -1,5 +1,6 @@
 .PSContainer{
 width: 100%;
+
 }
 
 h3{
@@ -55,4 +56,34 @@ h3{
         width: 80%;
         margin-bottom: 20px;
     }
+}
+
+/* Funcionalidades Responsive para pantallas tamaño tablet */
+@media (max-width: 768px){
+    .projects{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+       
+    }
+    .PSContainer{
+        
+        align-items: center;
+        justify-content: center;
+       display: flex;
+       flex-direction: column;
+        
+    }
+    .project{
+        width: 80%;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .PSContainer h3{
+        margin-bottom: 50px;
+        font-size: 2.5rem;
+        align-self: flex-start;
+        
+    }
+ 
 }

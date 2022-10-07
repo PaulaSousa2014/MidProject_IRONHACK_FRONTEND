@@ -88,8 +88,26 @@ button{
 }
 
 /* Funcionalidades Responsive para pantallas tamaño tablet */
-@media (min-width: 768px) {
-    .Contenedor-menu-hamburguesa{
+@media (max-width: 768px) {
+    #NavButton{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+    body{
+        margin: 5px;
+        padding: 5px;
+        font-size: 8px;
+    }
+    #NavButton{
+        display: none;
+    }
+    .topnav{
+        display: block;
+        height: 50px;
+    }
+    .nav{
         display: none;
     }
     

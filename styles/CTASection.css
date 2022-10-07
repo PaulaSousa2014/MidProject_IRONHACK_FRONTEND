@@ -63,3 +63,9 @@
         width: 200px;
     }
 }
+/* Funcionalidades Responsive para pantallas tamaño tablet */
+@media (max-width: 768px){
+    .CTASection{
+        height: 500px;
+    }
+}

@@ -15,9 +15,22 @@ const getForm = async (e)=>{
       headers: {
         "Content-type": "application/json; charset=UTF-8",
       },
+      
     })
       .then((response) => response.json())
       .then((archivo) => console.log(archivo));
     }
     
     document.querySelector("form").addEventListener("submit", getForm);
+
+    
+    // const fname = document.getElementById("fname");
+
+    // fname.addEventListener("input", function (event) {
+    //   if (fname.validity.typeMismatch) {
+    //     fname.setCustomValidity("Introduzca el nombre completo");
+    //   } else {
+    //     email.setCustomValidity("");
+    //   }
+    // });
+
