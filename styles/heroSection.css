@@ -101,7 +101,7 @@ h1{
 }
 
 /* Funcionalidades Responsive para pantallas tamaño tablet */
-@media (max-width: 768px){
+@media (max-width: 768px) and (min-width:600px){
     .HSContainer{
         flex-direction: column;
         align-content: center;
